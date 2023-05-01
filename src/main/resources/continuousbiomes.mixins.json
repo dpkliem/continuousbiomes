@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"minVersion": "${mixin_minimum_version}",
+	"package": "de.dpk02.continuousbiomes.mixins",
+	"compatibilityLevel": "JAVA_17",
+	"refmap": "continuousbiomes.mixins.refmap.json",
+	"mixins": [
+		"CBClimate"
+	],
+	"clients": [],
+	"server" : [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
